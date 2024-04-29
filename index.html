@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- data-bs-theme="dark" -->
+<html lang="en" data-bs-theme="dark" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <link rel="icon" type="image/png" href="content/assets/images/logo.png">
+    <!-- Bootstrap -5.3.2 -->
+    <link rel="stylesheet" href="content/css/vendors/bootstrap.min.css" />
+    <!-- fontawesome-free-6.5.1-web -->
+    <link rel="stylesheet" href="content/css/vendors/all.min.css" />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="content/css/style.css" />
+    <!-- FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Animate CSS CDN -->
+    <!-- <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   -->
+  </head>
+  <body class="bg-black">
+ 
+<div id="sideNav" class="min-vh-100 position-fixed top-0 d-flex">
+<div class="tabs bg-black d-flex flex-column justify-content-between p-4 ">
+  <div class="links ">
+    <!-- d-flex flex-column row-gap-3 -->
+    <ul class="nav overflow-hidden position-relative flex-column row-gap-3 fs-5  ">
+      <li class="link">Search</li>
+      <li class="link">Categories</li>
+      <li class="link">Area</li>
+      <li class="link">Ingredients</li>
+      <li class="link">Contact Us</li>
+      
+    </ul>
+  </div>
+  <div class="footer pe-3">
+    <div class=" fs-5 d-inline-block navFooterIcons">
+      <span class="me-1"><i class="fab fa-facebook"></i></span>
+      <span class="me-1"><i class="fab fa-twitter"></i></span>
+      <span><i class="fas fa-globe"></i></span>
+    </div>
+    <p class="fs-5">Copyright @ Route <span id="currentYear">2019</span> All<br/> Rights Reserved.</p>
+   
+  </div>
+</div>
+<div class="navHeader bg-white d-flex flex-column justify-content-between align-items-center text-center text-black fs-1 py-4 px-2">
+  
+  <img src="content/assets/images/logo.png" width="58" alt="logo image">
+  <span id="closeAndOpenNav"> <i  class="fas fa-bars pointer"></i></span>
+ 
+  <!-- fas fa-x -->
+  <div class="d-flex flex-column fs-5">
+    <i class="fas fa-globe mb-2 pointer"></i>
+    <i class="fas fa-share-nodes pointer"></i>
+  </div>
+</div>
+</div>
+
+<section  class="py-5">
+  <div class="container p-0">
+    <div id="searchUI">
+      
+    </div>
+    <div id="mealWillAdd" class="row g-4 min-vh-100 ">
+     
+  
+      
+    </div>
+    
+  </div>
+</section>
+
+  <div id="loader"  class="d-none position-absolute top-0 bottom-0 start-0 end-0 bg-black bg-opacity-100 d-flex justify-content-center align-items-center">
+
+    <i class="spinner-border border-0 fas fa-spinner"  role="status"></i>
+    
+  </div>
+
+  <div id="loderInside"  class="d-none position-absolute  bottom-0 start-0 end-0 bg-black bg-opacity-100 d-flex justify-content-center align-items-center">
+
+    <i class="spinner-border border-0 fas fa-spinner"  role="status"></i>
+    
+  </div>
+  <div id="loderInside2"  class="d-none position-absolute  bottom-0 start-0 end-0 bg-black bg-opacity-100 d-flex justify-content-center align-items-center">
+
+    <i class="spinner-border border-0 fas fa-spinner"  role="status"></i>
+    
+  </div>
+  
+
+
+   
+
+
+    <!-- fontawesome-free-6.5.1-web -->
+    <script src="content/js/vendors/all.min.js"></script>
+    <!-- Bootstrap -5.3.2 -->
+    <script src="content/js/vendors/bootstrap.bundle.min.js"></script>
+    <!-- jquery-3.7.1 -->
+    <script src="content/js/vendors/jquery-3.7.1.min.js"></script>
+    <!-- JS File -->
+    <script type="module" src="content/js/index.js"></script>
+    <!-- <script type="module" src="JsFiles/APIs/games.js" ></script> -->
+  </body>
+</html>

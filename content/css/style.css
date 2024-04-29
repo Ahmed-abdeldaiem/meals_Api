@@ -1,0 +1,94 @@
+
+
+
+:root{
+    --main_font:"Assistant", sans-serif;
+}
+
+
+body{
+    font-family: var(--main_font);
+}
+
+
+/* utilities */
+.fw-semibold2{
+    font-weight: 600;
+}
+
+
+.links ul li {
+    cursor: pointer;
+}
+
+
+.navFooterIcons span{
+    cursor: pointer;
+}
+.pointer{
+    cursor: pointer;
+}
+
+.nav li{
+    position: relative;
+  
+}
+
+#mealNameLayer{
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    transition: .5s all ease-in-out;
+}
+.meal:hover #mealNameLayer{
+    top: 0%;
+}
+
+#sideNav{
+z-index: 90;
+}
+
+/* loader */
+#loader {
+    z-index: 100;
+    opacity: .95;
+}
+#loderInside{
+    z-index: 80;
+    opacity: .95;
+    top: 100px;
+}
+#loderInside2{
+    z-index: 80;
+    opacity: .95;
+    top: 0px;
+}
+/* #sByName,#sByFLet{
+    z-index: 9;
+} */
+.spinner-border {
+    --bs-spinner-animation-speed: 1.6s !important;
+    --bs-spinner-width: 6rem !important;
+    --bs-spinner-height: 6rem !important;
+}
+
+#tag{
+    color: #842029;
+    background-color: #f8d7da;
+}
+.recip{
+    color: #055160;
+    background-color: #cff4fc;
+}
+
+
+
+.shortDesc{
+    
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    max-height: 90px;
+    /* white-space: nowrap; */
+    padding: 20px 0px;
+
+}
